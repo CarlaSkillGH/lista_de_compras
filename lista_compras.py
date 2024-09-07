@@ -1,4 +1,4 @@
-# Inicializar la lista de compras
+# Inicialización de la lista de compras
 lista_compras = []
 
 def mostrar_menu():
@@ -16,7 +16,7 @@ def agregar_articulo():
     print(f"'{articulo}' ha sido agregado a la lista.")
 
 def eliminar_articulo():
-# En esta opción el usuario podría eliminar un artículo de la lista
+#En esta opción el usuario podría eliminar un artículo de la lista
     if not lista_compras:
         print("La lista está vacía.")
         return
@@ -33,7 +33,7 @@ def eliminar_articulo():
         print("Entrada inválida. Por favor, introduce un número entero.")
 
 def mostrar_lista():
-# Este bloque de código imprime los artículos ingresados hasta el momento
+#Este bloque de código imprime los artículos ingresados hasta el momento
     if not lista_compras:
         print("La lista está vacía.")
     else:
@@ -61,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # ¡Código listo para usar!
